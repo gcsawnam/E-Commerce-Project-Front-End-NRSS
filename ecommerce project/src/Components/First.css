@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Edu+SA+Beginner&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Edu+SA+Beginner&display=swap");
+
+.container {
+  display: flex;
+  /* background-image: url("https://tunatheme.com/tf/html/broccoli-preview/broccoli/img/slider/21.png"); */
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #f7f5eb;
+  /* height: 500px; */
+  flex-wrap: wrap;
+}
+.left{
+  display: flex;
+  background-color: #80b500;
+  flex-direction: column;
+
+}
+.left,.right {
+  min-width:358px;
+  flex: 1;
+  /* border: 1px solid red; */
+}
+
+.lorem {
+  font-family: "Bree Serif", serif;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 20px;
+  /* position: absolute;
+    top: 400px;
+    left: 300px; */
+}
+.content {
+  /* position: absolute;
+  top: 300px;
+  left: 300px; */
+  font-family: "Bree Serif", serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+/* .First #image {
+  height: 300px;
+  
+  position: absolute;
+  top: 280px;
+  right: 100px;
+} */
+.button {
+  /* height: 40px; */
+
+  background-color: #80b500;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: "Alfa Slab One", cursive;
+}
